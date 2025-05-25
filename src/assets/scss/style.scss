@@ -1,0 +1,35 @@
+@import './vendor/fonts.scss';
+@import './vendor/reset.scss';
+@import './vendor/vars.scss';
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-weight: var(--font-Medium);
+  font-size: var(--normal-font-size);
+  background: var(--body-color);
+  color: var(--text-color);
+}
+
+.container{
+  max-width: var(--container-maxWidth);
+  margin-inline: var(--container-mgInline);
+} 
+  
+.grid{
+  display: grid;
+}
+
+.section{
+  padding: 1;
+}
+
+.main{
+  overflow-x: hidden;
+}
